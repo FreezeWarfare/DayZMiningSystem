@@ -1,0 +1,48 @@
+As suggested by few people I have taken my time adding props to the pack so you can make your trader/custom ares better. 
+Every prop is non usable they are just for show. 
+bars/ingots models are being redone they will just take some time. 
+Once they are done I will add them to the list.
+
+Class Names: 
+FreezeProp_Anvil
+FreezeProp_GrindingStone
+FreezeProp_Furnace
+
+FreezePropNode_copper
+FreezePropNode_gold
+FreezePropNode_iron
+FreezePropNode_silver
+FreezePropNode_tin
+FreezePropNode_stone
+FreezePropNode_uranium
+FreezePropNode_AmberGem
+FreezePropNode_AmethystGem
+FreezePropNode_AquamrineGem
+FreezePropNode_FancyColourDiamondGem
+FreezePropNode_IoliteGem
+FreezePropNode_JadeGem
+FreezePropNode_RubyGem
+FreezePropNode_TurquoiseGem
+
+FreezeProp_CutJade
+FreezeProp_CutAmethyst
+FreezeProp_CutAquamarine
+FreezeProp_CutAmber
+FreezeProp_CutFancyColourDiamond
+FreezeProp_CutIolite
+FreezeProp_CutRuby
+FreezeProp_CutTurquoise
+
+FreezeProp_NuggetGold
+FreezeProp_NuggetCopper
+FreezeProp_NuggetIron
+FreezeProp_NuggetSilver
+FreezeProp_NuggetTin
+FreezeProp_NuggetUranium
+
+FreezeProp_StoneOreCopper
+FreezeProp_StoneOreGold
+FreezeProp_StoneOreIron
+FreezeProp_StoneOreSilver
+FreezeProp_StoneOreTin
+FreezeProp_StoneOreUranium
