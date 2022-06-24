@@ -1,0 +1,15 @@
+Copy+Paste the Folder "files_miningsystem" into your mission folder.
+
+Open cfgeconomycore.xml inside your mission folder.
+Add the following line within the <classes> </classes> tags:
+
+<rootclass name="House" act="car" reportMemoryLOD="no" /> <!-- DayZMiningSystem -->
+
+
+Add the following lines at the end of the file (BEFORE </economycore> tag):
+ 
+<!-- DayZMiningSystem Files -->
+<ce folder="files_miningsystem">
+	<file name="miningsystem_types.xml" type="types" />
+	<file name="miningsystem_events.xml" type="events" />
+</ce>
