@@ -2,7 +2,7 @@ MUST READ
 Please change the X Y Z to fit your server. 
 
 -- Copy From here --
-<event name="ItemNode">
+<event name="ItemNodeSpawn">
     <pos x="8611" y="104" z="13343" a="0.000000" />
     <pos x="8606" y="104" z="13347" a="0.000000" />
     <pos x="8612" y="103" z="13335" a="0.000000" />
