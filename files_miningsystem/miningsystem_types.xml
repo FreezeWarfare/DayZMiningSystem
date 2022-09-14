@@ -530,7 +530,7 @@
 		<usage name="Industrial"/>
 		<usage name="Village"/>
 	</type>
-	<type name="FreezeNode_AquamrineGemNode">
+	<type name="FreezeNode_AquamarineGemNode">
 		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
 		<restock>0</restock>
