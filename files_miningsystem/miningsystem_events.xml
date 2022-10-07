@@ -1,5 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<events>
+MUST READ!
+Change <nominal>80</nominal> to the amount of spawns you have within cfgeventspawns. 
+Change <min>45</min> to the minimum of nodes you want to spawn in (Can not be the same for nominal) so do 5 less.  
+Change <max>85</max> to the maximun of nodes you want to spawn in (Can do 5 over nominal or same number).
+
+Do this for all of them (MUST CHANGE):
+<child lootmax="0" lootmin="0" max="8" min="5" type="FreezeNode_copper"/>
+max="8" = Maximun of nodes 
+min="5" = Mnimum of nodes
+
+Information:
+<lifetime>7200</lifetime> = How Long the node will stay there if no one mines it
+<restock>800</restock> = If someone mines the node how long will it take to spawn back in
+
+--Copy Here--
     <event name="ItemNodeSpawn">
         <nominal>45</nominal>
         <min>30</min>
@@ -31,4 +44,4 @@
             <child lootmax="0" lootmin="0" max="3" min="2" type="FreezeNode_TurquoiseGemNode"/>
         </children>
 	</event>
-</events>
+--End of Copy
