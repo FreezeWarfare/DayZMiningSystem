@@ -36,7 +36,7 @@ Information:
             <child lootmax="0" lootmin="0" max="3" min="2" type="FreezeNode_uranium"/>
             <child lootmax="0" lootmin="0" max="3" min="2" type="FreezeNode_AmberGemNode"/>
             <child lootmax="0" lootmin="0" max="3" min="2" type="FreezeNode_AmethystGemNode"/>
-            <child lootmax="0" lootmin="0" max="3" min="2" type="FreezeNode_AquamrineGemNode"/>
+            <child lootmax="0" lootmin="0" max="3" min="2" type="FreezeNode_AquamarineGemNode"/>
             <child lootmax="0" lootmin="0" max="3" min="2" type="FreezeNode_FancyColourDiamondGemNode"/>
             <child lootmax="0" lootmin="0" max="3" min="2" type="FreezeNode_IoliteGemNode"/>
             <child lootmax="0" lootmin="0" max="3" min="2" type="FreezeNode_JadeGemNode"/>
