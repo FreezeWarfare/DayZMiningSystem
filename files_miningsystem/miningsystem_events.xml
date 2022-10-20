@@ -19,7 +19,7 @@ Information:
         <max>45</max>
         <lifetime>7200</lifetime>
         <restock>60</restock>
-        <saferadius>100</saferadius>
+        <saferadius>5</saferadius>
         <distanceradius>50</distanceradius>
         <cleanupradius>100</cleanupradius>
         <flags deletable="1" init_random="0" remove_damaged="0"/>
