@@ -16,13 +16,13 @@ Information:
     <event name="ItemNodeSpawn">
         <nominal>45</nominal>
         <min>30</min>
-        <max>45</max>
-        <lifetime>7200</lifetime>
+        <max>46</max>
+        <lifetime>300</lifetime>
         <restock>60</restock>
         <saferadius>5</saferadius>
         <distanceradius>50</distanceradius>
         <cleanupradius>100</cleanupradius>
-        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>fixed</position>
         <limit>mixed</limit>
         <active>1</active>
@@ -43,5 +43,5 @@ Information:
             <child lootmax="0" lootmin="0" max="3" min="2" type="FreezeNode_RubyGemNode"/>
             <child lootmax="0" lootmin="0" max="3" min="2" type="FreezeNode_TurquoiseGemNode"/>
         </children>
-	</event>
+    </event>
 --End of Copy
