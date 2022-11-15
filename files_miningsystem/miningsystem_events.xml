@@ -22,7 +22,7 @@ Information:
         <saferadius>5</saferadius>
         <distanceradius>50</distanceradius>
         <cleanupradius>100</cleanupradius>
-        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
         <limit>mixed</limit>
         <active>1</active>
