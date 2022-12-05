@@ -1,0 +1,29 @@
+Allowing it so you can mine vanilla rocks. 
+Within the config.json  (ServerProfile/FreezeMining/Mining/Config.json)
+At the very bottom where it says "minedItemsProbabilities: {}"
+Add this code (Edit it how you would like it):
+-----------------------------------------------------
+"minedItemsProbabilities": {
+        "Stone": 200,
+        "SmallStone": 100, 
+        "Freezestone_iron": 10,
+        "Freezestone_tin": 10,
+        "Freezestone_silver": 10,
+        "Freezestone_gold": 15,
+        "Freezestone_copper": 20,
+        "Freezestone_uranium": 15,
+        "FreezeGem_Amber": 15,
+        "FreezeGem_Amethyst": 15,
+        "FreezeGem_Aquamrine": 15,
+        "FreezeGem_FancyColourDiamond": 15,
+        "FreezeGem_Iolite": 15,
+        "FreezeGem_Jade": 15,
+        "FreezeGem_Ruby": 15,
+        "FreezeGem_Turquoise": 15
+    }
+-----------------------------------------------------
+
+You can change the numbers to your liking. 
+This will be updated when gems are added. 
+Most likely will be already added to the config then you can turn it off or on.
+https://cdn.discordapp.com/attachments/963415393152663592/965268917134168094/unknown.png
