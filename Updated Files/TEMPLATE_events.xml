@@ -1,30 +1,30 @@
-MUST READ!
-Change <nominal>80</nominal> to the amount of spawns you have within cfgeventspawns. 
-Change <min>45</min> to the minimum of nodes you want to spawn in (Can not be the same for nominal) so do 5 less.  
-Change <max>85</max> to the maximun of nodes you want to spawn in (Can do 5 over nominal or same number).
+MUST READ! - There are 4 MAJOR things you must look out for in the file below. I will explain each one. 
 
-Do this for all of them (MUST CHANGE):
-<child lootmax="0" lootmin="0" max="8" min="5" type="FreezeNode_copper"/>
-max="8" = Maximun of nodes 
-min="5" = Mnimum of nodes
+nominal - I will always set this number as the same as the MAX or slightly higher than the MAX, i recommend keeping it at the same value as the MAX value
+min - this value needs to add up to the total of the min value inside the child property below combined. For the example below this property needs to equal 30 because there are 15 nodes created and they all have a min value of 2, 2x15 = 30
+Max - this also needs to add up to the total of the MAX value inside the child property. So example below would need to equal 45 as 3x15 = 45
+<child lootmax="0" lootmin="0" max="3" min="2" type="FreezeNode_copper"/> - This determines what node can spawn. the maximum it can spawn and the minimum
 
-Information:
+Other Information:
 <lifetime>7200</lifetime> = How Long the node will stay there if no one mines it
 <restock>800</restock> = If someone mines the node how long will it take to spawn back in
+<saferadius>5</saferadius> = How far you need to be for the node NOT to spawn, so if youre 5M to the spawn it wont spawn because you are too close
+<distanceradius>50</distanceradius> = How close each node can spawn to each other. If you have nodes that spawn very close set this to a low value. Usually between 2 and 5 is good
+The other values will not be needed to change. so leave them as it is. Below you will have a template which can always be changed to fit your own needs
 
 --Copy Here--
     <event name="ItemNodeSpawn">
         <nominal>45</nominal>
         <min>30</min>
-        <max>46</max>
+        <max>45</max>
         <lifetime>300</lifetime>
         <restock>60</restock>
         <saferadius>5</saferadius>
-        <distanceradius>50</distanceradius>
+        <distanceradius>5</distanceradius>
         <cleanupradius>100</cleanupradius>
         <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
-        <limit>mixed</limit>
+        <limit>child</limit>
         <active>1</active>
         <children>
             <child lootmax="0" lootmin="0" max="3" min="2" type="FreezeNode_copper"/>

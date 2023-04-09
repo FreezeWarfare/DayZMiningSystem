@@ -1,0 +1,26 @@
+If you would like to set up your own spawn positions for this mod I recommend using DayZ Editor - https://steamcommunity.com/sharedfiles/filedetails/?id=2250764298
+
+In this tool you can place all of the nodes accordingly and generate an eventpos.xml file to addon to your current ones or to make new ones. 
+Its very versatile but can be confusing if you have never used it before. I will not be teaching you how to use it but will explain how to set it up.
+
+Things you must do before running the editor is ENSURE you have the mining system mod loaded as well as dayz-editor. If you do not you can not
+place the required nodes to your liking.
+
+When you run the editor you can click play/start editor and choose your desired map. You can then search for the specific nodes you wish to place
+And then place them within the editor. Once the nodes are all places you can then select all the objects and click file, export to eventspawns.xml 
+Once exported it will give you the required positions: Note Either make your own events for them seperately or put them into the existing ItemNodeSpawn
+setup in your cfgeventspawns.xml
+
+I will give you some examples of how ive set up mine. 
+
+In my cfgeventspawns.xml I have it like this 
+
+https://i.imgur.com/Mea2zUL.png (Note I have more positions but this is just an example.) - Ive made my own event name so its organised and I know
+Which nodes are in which positions rather than them all being randomized. But of course set it up how you wish.
+
+Then in events.xml I have it like this - https://i.imgur.com/F9EQYmB.png
+
+Here you can see i have them individually made instead of all thrown together in ONE file. Each node has multiple spawns but have only set a few to spawn 
+so they are randomized each time. 
+
+The editor can be a bit hard to use at first so google or youtube a guide on how to use it first before jumping straight in. 

@@ -1,0 +1,29 @@
+DayZ Mining System Installation Help!
+-------------------------------------
+
+Preconfigured event spawn positions - Head to files_miningsystem folder and open TEMPLATE_cfgeventspawns.xml 
+
+Then head to cfgeventspawns.xml in your mpmissions/MapName/ folder and copy the data from the correct location into the end or the beginning of this file after the <eventposdef> tag for the begining and before the </eventposdef> at the end - Note these are for chernarus only, there are some preconfigured positions for other maps in the discord but you may need to create your own. More information in Install_CustomPositions.txt 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Now we need to install the events.xml addon - this allows the game to determine how many nodes to place, lifetime, distance etc.
+
+Head over to the file TEMPLATE_events.xml - READ all instructions carefully, then copy aftter the Copy Here tag and Place at start or end of db/events.xml file after the <events> tag or before </events>
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+How to fix this issue:
+[CE][VehicleRespawner] (PRINode) :: Init: "ItemNode" - Failed to spawn the requested amount (0 < 125) within 375 attempts.
+
+NOTE this will come up if you do not set the MAX and MIN and Nominal values as described in TEMPLATE_events.xml also check for typos in your child properties. If a classname is incorrect it can cause it to error as one of the properties doesnt exist so it will not calculate that min/max value
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Last but not least head over to mpmissions/mapname/cfgeconomycore.xml and after the closing </defaults> tag add this
+
+    <ce folder="files_miningsystem">
+		<file name="miningsystem_types.xml" type="types" />
+	</ce>
+
+Then copy the files_miningsystem folder into your mpmissions/mapname/ root directory. This handles lifetimes of specific items and objects that the mining system use. edit to your own liking. 

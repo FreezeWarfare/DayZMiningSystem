@@ -1,0 +1,57 @@
+How to configure the config.json properly and what each value means.
+
+First head over to your profiles folder then FreezeMining/Mining Directory and open config.json
+
+There are many values here that can be changed to your liking
+
+        {
+            "actionText": "Mine for Copper Ore",
+            "max_mine": -1,
+            "enabledTypes": [
+                "FreezeNode_copper" = What node this value below is handling
+            ],
+            "itemsProbabilities": [
+                {
+                    "item": "Freezestone_copper", = What drops when mining
+                    "probability": 50 = Percentage chance to drop per mine. 
+                },
+                {
+                    "item": "Stone",
+                    "probability": 50
+                }
+            ]
+        }
+
+CHange these values for each ones accordingly to how you want it to perform.
+
+Then at the end of the file is this
+
+"minedItemsProbabilities": {
+        "Stone": 200,
+        "SmallStone": 100, 
+        "Freezestone_iron": 10,
+        "Freezestone_tin": 10,
+        "Freezestone_silver": 10,
+        "Freezestone_gold": 15,
+        "Freezestone_copper": 20,
+        "Freezestone_uranium": 15,
+        "FreezeGem_Amber": 15,
+        "FreezeGem_Amethyst": 15,
+        "FreezeGem_Aquamrine": 15,
+        "FreezeGem_FancyColourDiamond": 15,
+        "FreezeGem_Iolite": 15,
+        "FreezeGem_Jade": 15,
+        "FreezeGem_Ruby": 15,
+        "FreezeGem_Turquoise": 15
+    }
+
+This is the values that handle the VANILLA stones and rocks you can mine in game with the sledgehammer and pickaxe.
+
+IN its default state this will allow you to mine the gems and stones from the vanilla rocks also with the specific probabilities above.
+IF you do not want the gems and stones to be obtained set this file like so 
+"minedItemsProbabilities": {
+        "Stone": 200,
+        "SmallStone": 100
+	}
+
+This configuration here will only allow the normal large and small stones to be mined from these rocks rather than it dropping the gems and stones.
