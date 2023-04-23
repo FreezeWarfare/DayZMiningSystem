@@ -34,6 +34,7 @@ The other values will not be needed to change. so leave them as it is. Below you
             <child lootmax="0" lootmin="0" max="3" min="2" type="FreezeNode_tin"/>
             <child lootmax="0" lootmin="0" max="3" min="2" type="FreezeNode_stone"/>
             <child lootmax="0" lootmin="0" max="3" min="2" type="FreezeNode_uranium"/>
+            <child lootmax="0" lootmin="0" max="3" min="2" type="FreezeNode_sulphur"/>
             <child lootmax="0" lootmin="0" max="3" min="2" type="FreezeNode_AmberGemNode"/>
             <child lootmax="0" lootmin="0" max="3" min="2" type="FreezeNode_AmethystGemNode"/>
             <child lootmax="0" lootmin="0" max="3" min="2" type="FreezeNode_AquamarineGemNode"/>
