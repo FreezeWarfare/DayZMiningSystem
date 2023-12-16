@@ -1,0 +1,41 @@
+--------------------------------------------------------------------------------------------------
+This mod is in beta any issues report them within https://discord.gg/MXUwnsXRVw
+Ingots/Bar models are going to change but still making them.
+--------------------------------------------------------------------------------------------------
+|                                                                                                |
+|                                                                                                |
+|                                                                                                |
+|                                                                                                |
+|                                                                                                |
+|                                                                                                |
+|                                                                                                |
+|                                                                                                |
+--------------------------------------------------------------------------------------------------
+    
+    <Category>Bars/Ingots                                                        !BUY!<-RemoveThis->!SELL!
+		FreezeBar_copper,                                   1,                   1000,                500
+		FreezeBar_gold,                                     1,                   1000,                500
+		FreezeBar_iron,                                     1,                   1000,                500
+		FreezeBar_silver,                                   1,                   1000,                500
+		FreezeBar_tin,                                      1,                   1000,                500
+		FreezeBar_uranium,                                  1,                   1000,                500
+		FreezeBar_Adamantite,                               1,                   0,                   500
+		FreezeBar_Enchanted,                                1,                   0,                   500
+		FreezeBar_Cobalt,                                   1,                   0,                   500
+		FreezeBar_Crimant,                                  1,                   0,                   500
+		FreezeBar_Eridium,                                  1,                   0,                   500
+
+    <Category>Mining Equipment
+		FreezeAnvil_kit,                                      *,                 1000,                500
+		FreezeFurnace_Kit,                                    *,                 1000,                500
+		FreezeGrindingStone_kit,                              *,                 1000,                500
+
+    <Category>Gems
+		FreezeGem_Amethyst_Cut,                                *,                1000,                500
+		FreezeGem_Jade_Cut,                                    *,                1000,                500
+		FreezeGem_Turquoise_Cut,                               *,                1000,                500
+		FreezeGem_Ruby_Cut,                                    *,                1000,                500
+		FreezeGem_Iolite_Cut,                                  *,                1000,                500
+		FreezeGem_FancyColourDiamond_Cut,                      *,                1000,                500
+		FreezeGem_Aquamarine_Cut,                              *,                1000,                500
+		FreezeGem_Amber_Cut,                                   *,                1000,                500
