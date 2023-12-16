@@ -35,6 +35,7 @@ Then at the end of the file is this
         "Freezestone_gold": 15,
         "Freezestone_copper": 20,
         "Freezestone_uranium": 15,
+        "Freezestone_sulphur": 5,
         "FreezeGem_Amber": 15,
         "FreezeGem_Amethyst": 15,
         "FreezeGem_Aquamrine": 15,
