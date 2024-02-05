@@ -1,0 +1,130 @@
+    <event name="ItemNodeKMUC">
+        <nominal>323</nominal>
+        <min>220</min>
+        <max>280</max>
+        <lifetime>21600</lifetime>
+        <restock>0</restock>
+        <saferadius>150</saferadius>
+        <distanceradius>1</distanceradius>
+        <cleanupradius>150</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="120" min="100" type="FreezeNode_iron"/>
+            <child lootmax="0" lootmin="0" max="60" min="40" type="FreezeNode_copper"/>
+            <child lootmax="0" lootmin="0" max="60" min="40" type="FreezeNode_tin"/>
+            <child lootmax="0" lootmin="0" max="20" min="10" type="FreezeNode_gold"/>	
+            <child lootmax="0" lootmin="0" max="20" min="10" type="FreezeNode_silver"/>	
+        </children>
+    </event>
+	<event name="ItemNodeWATERlower">
+        <nominal>301</nominal>
+        <min>200</min>
+        <max>250</max>
+        <lifetime>21600</lifetime>
+        <restock>0</restock>
+        <saferadius>150</saferadius>
+        <distanceradius>1</distanceradius>
+        <cleanupradius>150</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="80" min="65" type="FreezeNode_iron"/>
+            <child lootmax="0" lootmin="0" max="85" min="65" type="FreezeNode_copper"/>
+            <child lootmax="0" lootmin="0" max="85" min="70" type="FreezeNode_tin"/>		
+        </children>
+    </event>
+	<event name="ItemNodeWATERmid">
+        <nominal>301</nominal>
+        <min>200</min>
+        <max>250</max>
+        <lifetime>21600</lifetime>
+        <restock>0</restock>
+        <saferadius>150</saferadius>
+        <distanceradius>1</distanceradius>
+        <cleanupradius>150</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="80" min="65" type="FreezeNode_iron"/>
+            <child lootmax="0" lootmin="0" max="85" min="65" type="FreezeNode_copper"/>
+            <child lootmax="0" lootmin="0" max="85" min="70" type="FreezeNode_tin"/>
+
+            <child lootmax="0" lootmin="0" max="2" min="1" type="FreezeNode_AmberGemNode"/>	
+            <child lootmax="0" lootmin="0" max="2" min="1" type="FreezeNode_AmethystGemNode"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="FreezeNode_AquamarineGemNode"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="FreezeNode_FancyColourDiamondGemNode"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="FreezeNode_IoliteGemNode"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="FreezeNode_JadeGemNode"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="FreezeNode_RubyGemNode"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="FreezeNode_TurquoiseGemNode"/>		
+        </children>
+    </event>
+	<event name="ItemNodeWATERupper">
+        <nominal>114</nominal>
+        <min>50</min>
+        <max>80</max>
+        <lifetime>21600</lifetime>
+        <restock>0</restock>
+        <saferadius>150</saferadius>
+        <distanceradius>1</distanceradius>
+        <cleanupradius>150</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="20" min="10" type="FreezeNode_iron"/>
+            <child lootmax="0" lootmin="0" max="30" min="20" type="FreezeNode_copper"/>
+            <child lootmax="0" lootmin="0" max="30" min="20" type="FreezeNode_tin"/>		
+        </children>
+
+
+    </event>
+        <event name="ItemNodeAmber">
+        <nominal>323</nominal>
+        <min>220</min>
+        <max>280</max>
+        <lifetime>21600</lifetime>
+        <restock>0</restock>
+        <saferadius>150</saferadius>
+        <distanceradius>1</distanceradius>
+        <cleanupradius>150</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="140" min="120" type="FreezeNode_iron"/>
+            <child lootmax="0" lootmin="0" max="70" min="50" type="FreezeNode_copper"/>
+            <child lootmax="0" lootmin="0" max="70" min="50" type="FreezeNode_tin"/>		
+        </children>
+    </event>
+
+        </event>
+        <event name="ItemNodeAmber">
+        <nominal>323</nominal>
+        <min>220</min>
+        <max>280</max>
+        <lifetime>21600</lifetime>
+        <restock>0</restock>
+        <saferadius>150</saferadius>
+        <distanceradius>1</distanceradius>
+        <cleanupradius>150</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="140" min="120" type="FreezeNode_iron"/>
+            <child lootmax="0" lootmin="0" max="70" min="50" type="FreezeNode_copper"/>
+            <child lootmax="0" lootmin="0" max="70" min="50" type="FreezeNode_tin"/>		
+        </children>
+    </event>
+	
