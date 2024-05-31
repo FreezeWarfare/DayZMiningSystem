@@ -1,0 +1,17 @@
+Due to how the code is written this is the very basic way of adding custom skins for Pickaxe and SledgeHammer.
+All you need to do is change the class name to your pickaxe/SledgeHammer.
+Can have up to 5x Pickaxe skins & 5x SledgeHammer skins. (can add more if people need)
+
+Pickaxe:
+Class Name - FMSCustomPick1
+Class Name - FMSCustomPick2
+Class Name - FMSCustomPick3
+Class Name - FMSCustomPick4
+Class Name - FMSCustomPick5
+
+SledgeHammer:
+Class Name - FMSCustomSledg1
+Class Name - FMSCustomSledg2
+Class Name - FMSCustomSledg3
+Class Name - FMSCustomSledg4
+Class Name - FMSCustomSledg5
