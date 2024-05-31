@@ -1,0 +1,30 @@
+The max_mine setting in your config.json file determines the maximum number of times a rock node can be mined before it is removed. Here is a detailed explanation of how this setting works and its implications: ("max_mine": 6, is the limit)
+
+max_mine Setting
+Default Value (-1): When max_mine is set to -1, it implies there is no limit to the number of times a rock node can be mined. This is essentially an infinite mining setting.
+Specific Value (e.g., 6): If max_mine is set to any positive integer, that value will be the maximum number of times a rock node can be mined. For example, if max_mine is set to 6, the node can only be mined six times before it is removed from the game.
+
+Impact of Changing max_mine
+Setting to 6: If you want to ensure that each rock node can only be mined six times, you should set max_mine to 6. This will enforce the six-hit limit.
+Allowing Changes: If you allow users to change the max_mine value, they can set it to any positive integer to control the number of times a node can be mined. Setting it to -1 will allow unlimited mining.
+
+Configuration Example in config.json
+{
+    "MRFRMINE": [
+        {
+            "actionText": "Mine for Copper Ore",
+            "max_mine": 6,
+            "enabledTypes": ["FreezeNode_copper"],
+            "itemsProbabilities": [
+                {"item": "FreezeGem_Amber", "probability": 0},
+                {"item": "FreezeGem_Amethyst", "probability": 0},
+                {"item": "FreezeGem_Aquamarine", "probability": 0},
+                {"item": "FreezeGem_FancyColourDiamond", "probability": 0},
+                {"item": "FreezeGem_Iolite", "probability": 0},
+                {"item": "FreezeGem_Jade", "probability": 0},
+                {"item": "FreezeGem_Ruby", "probability": 0},
+                {"item": "FreezeGem_Turquoise", "probability": 0},
+                {"item": "Freezestone_copper", "probability": 70},
+                {"item": "Stone", "probability": 30}
+            ]
+        },
