@@ -1,12 +1,3 @@
-////////////////////////////////////////////////////////////////////
-//DeRap: 4_world\freezenodes_config\config.bin
-//Produced from mikero's Dos Tools Dll version 9.10
-//https://mikero.bytex.digital/Downloads
-//'now' is Mon Jun 03 06:19:49 2024 : 'file' last modified on Sun Jun 02 01:06:37 2024
-////////////////////////////////////////////////////////////////////
-
-#define _ARMA_
-
 class CfgPatches
 {
 	class FreezeMining_config
@@ -168,203 +159,203 @@ class CfgSlots
 	class Slot_Freezestone_copper
 	{
 		name = "Freezestone_copper";
-		displayName = "#STR_Freezestone_copper";
+		displayName = "$STR_Freezestone_copper";
 		ghostIcon = "stones";
 		show = "true";
 	};
 	class Slot_Freezestone_copper1
 	{
 		name = "Freezestone_copper1";
-		displayName = "#STR_Freezestone_copper";
+		displayName = "$STR_Freezestone_copper";
 		ghostIcon = "stones";
 		show = "true";
 	};
 	class Slot_Freezestone_copper2
 	{
 		name = "Freezestone_copper2";
-		displayName = "#STR_Freezestone_copper";
+		displayName = "$STR_Freezestone_copper";
 		ghostIcon = "stones";
 		show = "true";
 	};
 	class Slot_Freezestone_copper3
 	{
 		name = "Freezestone_copper3";
-		displayName = "#STR_Freezestone_copper";
+		displayName = "$STR_Freezestone_copper";
 		ghostIcon = "stones";
 		show = "true";
 	};
 	class Slot_FreezeIngot_copper
 	{
 		name = "FreezeNugget_copper";
-		displayName = "#STR_FreezeNugget_copper";
+		displayName = "$STR_FreezeNugget_copper";
 		ghostIcon = "stones";
 		show = "true";
 	};
 	class Slot_Freezestone_silver
 	{
 		name = "Freezestone_silver";
-		displayName = "#STR_Freezestone_silver";
+		displayName = "$STR_Freezestone_silver";
 		ghostIcon = "stones";
 		show = "true";
 	};
 	class Slot_Freezestone_silver1
 	{
 		name = "Freezestone_silver1";
-		displayName = "#STR_Freezestone_silver";
+		displayName = "$STR_Freezestone_silver";
 		ghostIcon = "stones";
 		show = "true";
 	};
 	class Slot_Freezestone_silver2
 	{
 		name = "Freezestone_silver2";
-		displayName = "#STR_Freezestone_silver";
+		displayName = "$STR_Freezestone_silver";
 		ghostIcon = "stones";
 		show = "true";
 	};
 	class Slot_Freezestone_silver3
 	{
 		name = "Freezestone_silver3";
-		displayName = "#STR_Freezestone_silver";
+		displayName = "$STR_Freezestone_silver";
 		ghostIcon = "stones";
 		show = "true";
 	};
 	class Slot_Freezestone_gold
 	{
 		name = "Freezestone_gold";
-		displayName = "#STR_Freezestone_gold";
+		displayName = "$STR_Freezestone_gold";
 		ghostIcon = "stones";
 		show = "true";
 	};
 	class Slot_Freezestone_gold1
 	{
 		name = "Freezestone_gold1";
-		displayName = "#STR_Freezestone_gold";
+		displayName = "$STR_Freezestone_gold";
 		ghostIcon = "stones";
 		show = "true";
 	};
 	class Slot_Freezestone_gold2
 	{
 		name = "Freezestone_gold2";
-		displayName = "#STR_Freezestone_gold";
+		displayName = "$STR_Freezestone_gold";
 		ghostIcon = "stones";
 		show = "true";
 	};
 	class Slot_Freezestone_gold3
 	{
 		name = "Freezestone_gold3";
-		displayName = "#STR_Freezestone_gold";
+		displayName = "$STR_Freezestone_gold";
 		ghostIcon = "stones";
 		show = "true";
 	};
 	class Slot_Freezestone_iron
 	{
 		name = "Freezestone_iron";
-		displayName = "#STR_Freezestone_iron";
+		displayName = "$STR_Freezestone_iron";
 		ghostIcon = "stones";
 		show = "true";
 	};
 	class Slot_Freezestone_iron1
 	{
 		name = "Freezestone_iron1";
-		displayName = "#STR_Freezestone_iron";
+		displayName = "$STR_Freezestone_iron";
 		ghostIcon = "stones";
 		show = "true";
 	};
 	class Slot_Freezestone_iron2
 	{
 		name = "Freezestone_iron2";
-		displayName = "#STR_Freezestone_iron";
+		displayName = "$STR_Freezestone_iron";
 		ghostIcon = "stones";
 		show = "true";
 	};
 	class Slot_Freezestone_iron3
 	{
 		name = "Freezestone_iron3";
-		displayName = "#STR_Freezestone_iron";
+		displayName = "$STR_Freezestone_iron";
 		ghostIcon = "stones";
 		show = "true";
 	};
 	class Slot_Freezestone_tin
 	{
 		name = "Freezestone_tin";
-		displayName = "#STR_Freezestone_tin";
+		displayName = "$STR_Freezestone_tin";
 		ghostIcon = "stones";
 		show = "true";
 	};
 	class Slot_Freezestone_tin1
 	{
 		name = "Freezestone_tin1";
-		displayName = "#STR_Freezestone_tin";
+		displayName = "$STR_Freezestone_tin";
 		ghostIcon = "stones";
 		show = "true";
 	};
 	class Slot_Freezestone_tin2
 	{
 		name = "Freezestone_tin2";
-		displayName = "#STR_Freezestone_tin";
+		displayName = "$STR_Freezestone_tin";
 		ghostIcon = "stones";
 		show = "true";
 	};
 	class Slot_Freezestone_tin3
 	{
 		name = "Freezestone_tin3";
-		displayName = "#STR_Freezestone_tin";
+		displayName = "$STR_Freezestone_tin";
 		ghostIcon = "stones";
 		show = "true";
 	};
 	class Slot_Freezestone_uranium
 	{
 		name = "Freezestone_uranium";
-		displayName = "#STR_FreezeBar_uranium";
+		displayName = "$STR_FreezeBar_uranium";
 		ghostIcon = "stones";
 		show = "true";
 	};
 	class Slot_Freezestone_uranium1
 	{
 		name = "Freezestone_uranium1";
-		displayName = "#STR_FreezeBar_uranium";
+		displayName = "$STR_FreezeBar_uranium";
 		ghostIcon = "stones";
 		show = "true";
 	};
 	class Slot_Freezestone_uranium2
 	{
 		name = "Freezestone_uranium2";
-		displayName = "#STR_FreezeBar_uranium";
+		displayName = "$STR_FreezeBar_uranium";
 		ghostIcon = "stones";
 		show = "true";
 	};
 	class Slot_Freezestone_uranium3
 	{
 		name = "Freezestone_uranium3";
-		displayName = "#STR_FreezeBar_uranium";
+		displayName = "$STR_FreezeBar_uranium";
 		ghostIcon = "stones";
 		show = "true";
 	};
 	class Slot_Freezestone_sulphur
 	{
 		name = "Freezestone_sulphur";
-		displayName = "#STR_FreezePowder_Sulphur";
+		displayName = "$STR_FreezePowder_Sulphur";
 		ghostIcon = "stones";
 		show = "true";
 	};
 	class Slot_Freezestone_sulphur1
 	{
 		name = "Freezestone_sulphur1";
-		displayName = "#STR_FreezePowder_Sulphur";
+		displayName = "$STR_FreezePowder_Sulphur";
 		ghostIcon = "stones";
 		show = "true";
 	};
 	class Slot_Freezestone_sulphur2
 	{
 		name = "Freezestone_sulphur2";
-		displayName = "#STR_FreezePowder_Sulphur";
+		displayName = "$STR_FreezePowder_Sulphur";
 		ghostIcon = "stones";
 		show = "true";
 	};
 	class Slot_Freezestone_sulphur3
 	{
 		name = "Freezestone_sulphur3";
-		displayName = "#STR_FreezePowder_Sulphur";
+		displayName = "$STR_FreezePowder_Sulphur";
 		ghostIcon = "stones";
 		show = "true";
 	};
@@ -812,7 +803,7 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Base Gem NO USE";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Gems\data\UnCut\BaseGem\uncut_gem.p3d";
-		descriptionShort = "#STR_FreezeGem_Base_desc";
+		descriptionShort = "$STR_FreezeGem_Base_desc";
 		itemSize[] = {1,1};
 		weight = 1;
 		hiddenSelections[] = {"gem"};
@@ -833,122 +824,122 @@ class CfgVehicles
 	};
 	class FreezeGem_Jade: FreezeGem_Base
 	{
-		displayName = "#STR_FreezeGem_Jade";
+		displayName = "$STR_FreezeGem_Jade";
 		hiddenSelections[] = {"gem"};
 		hiddenSelectionsTextures[] = {"MrfreezeMiningSystem\4_World\FreezeNodes_config\Gems\data\UnCut\RawGems\raw_jade_co.paa"};
 	};
 	class FreezeGem_Jade_Cut: FreezeGem_Base
 	{
-		displayName = "#STR_FreezeGem_Jade_Cut";
+		displayName = "$STR_FreezeGem_Jade_Cut";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Gems\data\jade\jade.p3d";
-		descriptionShort = "#STR_FreezeGem_Cut_desc";
+		descriptionShort = "$STR_FreezeGem_Cut_desc";
 		hiddenSelections[] = {"gem"};
 		hiddenSelectionsTextures[] = {"MrfreezeMiningSystem\4_World\FreezeNodes_config\Gems\data\jade\jade.paa"};
 	};
 	class FreezeGem_Amethyst: FreezeGem_Base
 	{
-		displayName = "#STR_FreezeGem_Amethyst";
+		displayName = "$STR_FreezeGem_Amethyst";
 		hiddenSelections[] = {"gem"};
 		hiddenSelectionsTextures[] = {"MrfreezeMiningSystem\4_World\FreezeNodes_config\Gems\data\UnCut\RawGems\raw_amethystt_co.paa"};
 	};
 	class FreezeGem_Amethyst_Cut: FreezeGem_Base
 	{
-		displayName = "#STR_FreezeGem_Amethyst_Cut";
+		displayName = "$STR_FreezeGem_Amethyst_Cut";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Gems\data\amethyst\Gem_Amethyst.p3d";
-		descriptionShort = "#STR_FreezeGem_Cut_desc";
+		descriptionShort = "$STR_FreezeGem_Cut_desc";
 		hiddenSelections[] = {"gem"};
 		hiddenSelectionsTextures[] = {"MrfreezeMiningSystem\4_World\FreezeNodes_config\Gems\data\amethyst\amethyst.paa"};
 	};
 	class FreezeGem_Amber: FreezeGem_Base
 	{
-		displayName = "#STR_FreezeGem_Amber";
+		displayName = "$STR_FreezeGem_Amber";
 		hiddenSelections[] = {"gem"};
 		hiddenSelectionsTextures[] = {"MrfreezeMiningSystem\4_World\FreezeNodes_config\Gems\data\UnCut\RawGems\raw_amber_co.paa"};
 	};
 	class FreezeGem_Amber_Cut: FreezeGem_Base
 	{
-		displayName = "#STR_FreezeGem_Amber_Cut";
+		displayName = "$STR_FreezeGem_Amber_Cut";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Gems\data\amber\amber.p3d";
-		descriptionShort = "#STR_FreezeGem_Cut_desc";
+		descriptionShort = "$STR_FreezeGem_Cut_desc";
 		hiddenSelections[] = {"gem"};
 		hiddenSelectionsTextures[] = {"MrfreezeMiningSystem\4_World\FreezeNodes_config\Gems\data\amber\amber.paa"};
 	};
 	class FreezeGem_Aquamarine: FreezeGem_Base
 	{
-		displayName = "#STR_FreezeGem_Aquamarine";
+		displayName = "$STR_FreezeGem_Aquamarine";
 		hiddenSelections[] = {"gem"};
 		hiddenSelectionsTextures[] = {"MrfreezeMiningSystem\4_World\FreezeNodes_config\Gems\data\UnCut\RawGems\raw_aquamarine_co.paa"};
 	};
 	class FreezeGem_Aquamarine_Cut: FreezeGem_Base
 	{
-		displayName = "#STR_FreezeGem_Aquamarine_Cut";
+		displayName = "$STR_FreezeGem_Aquamarine_Cut";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Gems\data\aquamarine\aquamarine.p3d";
-		descriptionShort = "#STR_FreezeGem_Cut_desc";
+		descriptionShort = "$STR_FreezeGem_Cut_desc";
 		hiddenSelections[] = {"gem"};
 		hiddenSelectionsTextures[] = {"MrfreezeMiningSystem\4_World\FreezeNodes_config\Gems\data\aquamarine\aquamarine.paa"};
 	};
 	class FreezeGem_FancyColourDiamond: FreezeGem_Base
 	{
-		displayName = "#STR_FreezeGem_FancyColourDiamond";
+		displayName = "$STR_FreezeGem_FancyColourDiamond";
 		hiddenSelections[] = {"gem"};
 		hiddenSelectionsTextures[] = {"MrfreezeMiningSystem\4_World\FreezeNodes_config\Gems\data\UnCut\RawGems\raw_FancyColourDiamond_co.paa"};
 	};
 	class FreezeGem_FancyColourDiamond_Cut: FreezeGem_Base
 	{
-		displayName = "#STR_FreezeGem_FancyColourDiamond_Cut";
+		displayName = "$STR_FreezeGem_FancyColourDiamond_Cut";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Gems\data\FancyColourDiamond\FancyColourDiamond.p3d";
-		descriptionShort = "#STR_FreezeGem_Cut_desc";
+		descriptionShort = "$STR_FreezeGem_Cut_desc";
 		hiddenSelections[] = {"gem"};
 		hiddenSelectionsTextures[] = {"MrfreezeMiningSystem\4_World\FreezeNodes_config\Gems\data\FancyColourDiamond\FancyColourDiamond.paa"};
 	};
 	class FreezeGem_Iolite: FreezeGem_Base
 	{
-		displayName = "#STR_FreezeGem_Iolite";
+		displayName = "$STR_FreezeGem_Iolite";
 		hiddenSelections[] = {"gem"};
 		hiddenSelectionsTextures[] = {"MrfreezeMiningSystem\4_World\FreezeNodes_config\Gems\data\UnCut\RawGems\raw_iolite_co.paa"};
 	};
 	class FreezeGem_Iolite_Cut: FreezeGem_Base
 	{
-		displayName = "#STR_FreezeGem_Iolite_Cut";
+		displayName = "$STR_FreezeGem_Iolite_Cut";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Gems\data\iolite\iolite.p3d";
-		descriptionShort = "#STR_FreezeGem_Cut_desc";
+		descriptionShort = "$STR_FreezeGem_Cut_desc";
 		hiddenSelections[] = {"gem"};
 		hiddenSelectionsTextures[] = {"MrfreezeMiningSystem\4_World\FreezeNodes_config\Gems\data\iolite\iolite.paa"};
 	};
 	class FreezeGem_Ruby: FreezeGem_Base
 	{
-		displayName = "#STR_FreezeGem_Ruby";
+		displayName = "$STR_FreezeGem_Ruby";
 		hiddenSelections[] = {"gem"};
 		hiddenSelectionsTextures[] = {"MrfreezeMiningSystem\4_World\FreezeNodes_config\Gems\data\UnCut\RawGems\raw_ruby_co.paa"};
 	};
 	class FreezeGem_Ruby_Cut: FreezeGem_Base
 	{
-		displayName = "#STR_FreezeGem_Ruby_Cut";
+		displayName = "$STR_FreezeGem_Ruby_Cut";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Gems\data\ruby\ruby.p3d";
-		descriptionShort = "#STR_FreezeGem_Cut_desc";
+		descriptionShort = "$STR_FreezeGem_Cut_desc";
 		hiddenSelections[] = {"gem"};
 		hiddenSelectionsTextures[] = {"MrfreezeMiningSystem\4_World\FreezeNodes_config\Gems\data\ruby\ruby.paa"};
 	};
 	class FreezeGem_Turquoise: FreezeGem_Base
 	{
-		displayName = "#STR_FreezeGem_Turquoise";
+		displayName = "$STR_FreezeGem_Turquoise";
 		hiddenSelections[] = {"gem"};
 		hiddenSelectionsTextures[] = {"MrfreezeMiningSystem\4_World\FreezeNodes_config\Gems\data\UnCut\RawGems\raw_turquoise_co.paa"};
 	};
 	class FreezeGem_Turquoise_Cut: FreezeGem_Base
 	{
-		displayName = "#STR_FreezeGem_Turquoise_Cut";
+		displayName = "$STR_FreezeGem_Turquoise_Cut";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Gems\data\turquoise\turquoise.p3d";
-		descriptionShort = "#STR_FreezeGem_Cut_desc";
+		descriptionShort = "$STR_FreezeGem_Cut_desc";
 		hiddenSelections[] = {"gem"};
 		hiddenSelectionsTextures[] = {"MrfreezeMiningSystem\4_World\FreezeNodes_config\Gems\data\turquoise\turquoise.paa"};
 	};
 	class FreezeAnvil: Inventory_Base
 	{
 		scope = 2;
-		displayName = "#STR_FreezeAnvil";
+		displayName = "$STR_FreezeAnvil";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Anvil\anvil.p3d";
-		descriptionShort = "#STR_FreezeAnvil_desc";
+		descriptionShort = "$STR_FreezeAnvil_desc";
 		itemsCargoSize[] = {10,10};
 		canBeDigged = 0;
 		carveNavmesh = 1;
@@ -973,9 +964,9 @@ class CfgVehicles
 	class FreezeAnvil_Static: Inventory_Base
 	{
 		scope = 2;
-		displayName = "#STR_FreezeAnvil";
+		displayName = "$STR_FreezeAnvil";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Anvil\anvil.p3d";
-		descriptionShort = "#STR_FreezeAnvil_desc";
+		descriptionShort = "$STR_FreezeAnvil_desc";
 		itemsCargoSize[] = {0,0};
 		canBeDigged = 0;
 		carveNavmesh = 1;
@@ -1006,9 +997,9 @@ class CfgVehicles
 	class FreezeGrindingStone: Inventory_Base
 	{
 		scope = 2;
-		displayName = "#STR_FreezeGrindingStone";
+		displayName = "$STR_FreezeGrindingStone";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Sharpening_Stone\GrindingStone.p3d";
-		descriptionShort = "#STR_FreezeGrindingStone_desc";
+		descriptionShort = "$STR_FreezeGrindingStone_desc";
 		itemsCargoSize[] = {10,10};
 		canBeDigged = 0;
 		carveNavmesh = 1;
@@ -1033,9 +1024,9 @@ class CfgVehicles
 	class FreezeGrindingStone_Static: Inventory_Base
 	{
 		scope = 2;
-		displayName = "#STR_FreezeGrindingStone";
+		displayName = "$STR_FreezeGrindingStone";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Sharpening_Stone\GrindingStone.p3d";
-		descriptionShort = "#STR_FreezeGrindingStone_desc";
+		descriptionShort = "$STR_FreezeGrindingStone_desc";
 		itemsCargoSize[] = {0,0};
 		canBeDigged = 0;
 		carveNavmesh = 1;
@@ -1066,9 +1057,9 @@ class CfgVehicles
 	class FreezeFurnace: Inventory_Base
 	{
 		scope = 2;
-		displayName = "#STR_FreezeFurnace";
+		displayName = "$STR_FreezeFurnace";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Furnace\FreezeFurnace.p3d";
-		descriptionShort = "#STR_FreezeFurnace_desc";
+		descriptionShort = "$STR_FreezeFurnace_desc";
 		itemsCargoSize[] = {10,10};
 		canBeDigged = 0;
 		carveNavmesh = 1;
@@ -1087,49 +1078,49 @@ class CfgVehicles
 		{
 			class GoldProcessing_Storage
 			{
-				name = "#STR_GoldProcessing_Storage";
+				name = "$STR_GoldProcessing_Storage";
 				description = "Fill with Gold Ore";
 				attachmentSlots[] = {"Freezestone_gold","Freezestone_gold1","Freezestone_gold2","Freezestone_gold3"};
 				icon = "stones";
 			};
 			class TinProcessing_Storage
 			{
-				name = "#STR_TinProcessing_Storage";
+				name = "$STR_TinProcessing_Storage";
 				description = "Fill with Tin Ore";
 				attachmentSlots[] = {"Freezestone_tin","Freezestone_tin1","Freezestone_tin2","Freezestone_tin3"};
 				icon = "stones";
 			};
 			class IronProcessing_Storage
 			{
-				name = "#STR_IronProcessing_Storage";
+				name = "$STR_IronProcessing_Storage";
 				description = "Fill with iron Ore";
 				attachmentSlots[] = {"Freezestone_iron","Freezestone_iron1","Freezestone_iron2","Freezestone_iron3"};
 				icon = "stones";
 			};
 			class SilverProcessing_Storage
 			{
-				name = "#STR_SilverProcessing_Storage";
+				name = "$STR_SilverProcessing_Storage";
 				description = "Fill with Silver Ore";
 				attachmentSlots[] = {"Freezestone_silver","Freezestone_silver1","Freezestone_silver2","Freezestone_silver3"};
 				icon = "stones";
 			};
 			class CopperProcessing_Storage
 			{
-				name = "#STR_CopperProcessing_Storage";
+				name = "$STR_CopperProcessing_Storage";
 				description = "Fill with Copper Ore";
 				attachmentSlots[] = {"Freezestone_copper","Freezestone_copper1","Freezestone_copper2","Freezestone_copper3"};
 				icon = "stones";
 			};
 			class uraniumProcessing_Storage
 			{
-				name = "#STR_uraniumProcessing_Storage";
+				name = "$STR_uraniumProcessing_Storage";
 				description = "Fill with Uranium Ore";
 				attachmentSlots[] = {"Freezestone_uranium","Freezestone_uranium1","Freezestone_uranium2","Freezestone_uranium3"};
 				icon = "stones";
 			};
 			class sulphurProcessing_Storage
 			{
-				name = "#STR_sulphurProcessing_Storage";
+				name = "$STR_sulphurProcessing_Storage";
 				description = "Fill with Sulphur Ore";
 				attachmentSlots[] = {"Freezestone_sulphur","Freezestone_sulphur1","Freezestone_sulphur2","Freezestone_sulphur3"};
 				icon = "stones";
@@ -1150,9 +1141,9 @@ class CfgVehicles
 	class FreezeFurnace_Static: Inventory_Base
 	{
 		scope = 2;
-		displayName = "#STR_FreezeFurnace";
+		displayName = "$STR_FreezeFurnace";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Furnace\FreezeFurnace.p3d";
-		descriptionShort = "#STR_FreezeFurnace_desc";
+		descriptionShort = "$STR_FreezeFurnace_desc";
 		itemsCargoSize[] = {10,5};
 		canBeDigged = 0;
 		carveNavmesh = 1;
@@ -1171,49 +1162,49 @@ class CfgVehicles
 		{
 			class GoldProcessing_Storage
 			{
-				name = "#STR_GoldProcessing_Storage";
+				name = "$STR_GoldProcessing_Storage";
 				description = "Fill with Gold Ore";
 				attachmentSlots[] = {"Freezestone_gold","Freezestone_gold1","Freezestone_gold2","Freezestone_gold3"};
 				icon = "stones";
 			};
 			class TinProcessing_Storage
 			{
-				name = "#STR_TinProcessing_Storage";
+				name = "$STR_TinProcessing_Storage";
 				description = "Fill with Tin Ore";
 				attachmentSlots[] = {"Freezestone_tin","Freezestone_tin1","Freezestone_tin2","Freezestone_tin3"};
 				icon = "stones";
 			};
 			class IronProcessing_Storage
 			{
-				name = "#STR_IronProcessing_Storage";
+				name = "$STR_IronProcessing_Storage";
 				description = "Fill with Iron Ore";
 				attachmentSlots[] = {"Freezestone_iron","Freezestone_iron1","Freezestone_iron2","Freezestone_iron3"};
 				icon = "stones";
 			};
 			class SilverProcessing_Storage
 			{
-				name = "#STR_SilverProcessing_Storage";
+				name = "$STR_SilverProcessing_Storage";
 				description = "Fill with Silver Ore";
 				attachmentSlots[] = {"Freezestone_silver","Freezestone_silver1","Freezestone_silver2","Freezestone_silver3"};
 				icon = "stones";
 			};
 			class CopperProcessing_Storage
 			{
-				name = "#STR_CopperProcessing_Storage";
+				name = "$STR_CopperProcessing_Storage";
 				description = "Fill with Copper Ore";
 				attachmentSlots[] = {"Freezestone_copper","Freezestone_copper1","Freezestone_copper2","Freezestone_copper3"};
 				icon = "stones";
 			};
 			class uraniumProcessing_Storage
 			{
-				name = "#STR_uraniumProcessing_Storage";
+				name = "$STR_uraniumProcessing_Storage";
 				description = "Fill with Uranium Ore";
 				attachmentSlots[] = {"Freezestone_uranium","Freezestone_uranium1","Freezestone_uranium2","Freezestone_uranium3"};
 				icon = "stones";
 			};
 			class sulphurProcessing_Storage
 			{
-				name = "#STR_sulphurProcessing_Storage";
+				name = "$STR_sulphurProcessing_Storage";
 				description = "Fill with Sulphur Ore";
 				attachmentSlots[] = {"Freezestone_sulphur","Freezestone_sulphur1","Freezestone_sulphur2","Freezestone_sulphur3"};
 				icon = "stones";
@@ -1242,7 +1233,7 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Ore Bar";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Ingots\TinIngot\tinbar.p3d";
-		descriptionShort = "#STR_FreezeBar_base_desc";
+		descriptionShort = "$STR_FreezeBar_base_desc";
 		itemSize[] = {1,2};
 		canBeSplit = 1;
 		varQuantityDestroyOnMin = 1;
@@ -1266,9 +1257,9 @@ class CfgVehicles
 	class FreezeBar_copper: Inventory_Base
 	{
 		scope = 2;
-		displayName = "#STR_FreezeBar_copper";
+		displayName = "$STR_FreezeBar_copper";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Ingots\CopperIngot\copperbar.p3d";
-		descriptionShort = "#STR_FreezeBar_base_desc";
+		descriptionShort = "$STR_FreezeBar_base_desc";
 		itemSize[] = {1,2};
 		canBeSplit = 1;
 		varQuantityDestroyOnMin = 1;
@@ -1292,9 +1283,9 @@ class CfgVehicles
 	class FreezeBar_Adamantite: Inventory_Base
 	{
 		scope = 2;
-		displayName = "#STR_FreezeBar_Adamantite";
+		displayName = "$STR_FreezeBar_Adamantite";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Ingots\Adamantite\Adamantite.p3d";
-		descriptionShort = "#STR_FreezeBar_mixed_desc";
+		descriptionShort = "$STR_FreezeBar_mixed_desc";
 		itemSize[] = {1,2};
 		canBeSplit = 1;
 		varQuantityDestroyOnMin = 1;
@@ -1318,9 +1309,9 @@ class CfgVehicles
 	class FreezeBar_Eridium: Inventory_Base
 	{
 		scope = 2;
-		displayName = "#STR_FreezeBar_Eridium";
+		displayName = "$STR_FreezeBar_Eridium";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Ingots\Eridium\Eridium.p3d";
-		descriptionShort = "#STR_FreezeBar_mixed_desc";
+		descriptionShort = "$STR_FreezeBar_mixed_desc";
 		itemSize[] = {1,2};
 		canBeSplit = 1;
 		varQuantityDestroyOnMin = 1;
@@ -1344,9 +1335,9 @@ class CfgVehicles
 	class FreezeBar_Enchanted: Inventory_Base
 	{
 		scope = 2;
-		displayName = "#STR_FreezeBar_Enchanted";
+		displayName = "$STR_FreezeBar_Enchanted";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Ingots\Enchanted\Enchanted.p3d";
-		descriptionShort = "#STR_FreezeBar_mixed_desc";
+		descriptionShort = "$STR_FreezeBar_mixed_desc";
 		itemSize[] = {1,2};
 		canBeSplit = 1;
 		varQuantityDestroyOnMin = 1;
@@ -1370,9 +1361,9 @@ class CfgVehicles
 	class FreezeBar_Cobalt: Inventory_Base
 	{
 		scope = 2;
-		displayName = "#STR_FreezeBar_Cobalt";
+		displayName = "$STR_FreezeBar_Cobalt";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Ingots\Cobalt\Cobalt.p3d";
-		descriptionShort = "#STR_FreezeBar_mixed_desc";
+		descriptionShort = "$STR_FreezeBar_mixed_desc";
 		itemSize[] = {1,2};
 		canBeSplit = 1;
 		varQuantityDestroyOnMin = 1;
@@ -1396,9 +1387,9 @@ class CfgVehicles
 	class FreezeBar_Crimant: Inventory_Base
 	{
 		scope = 2;
-		displayName = "#STR_FreezeBar_Crimant";
+		displayName = "$STR_FreezeBar_Crimant";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Ingots\Crimant\Crimant.p3d";
-		descriptionShort = "#STR_FreezeBar_mixed_desc";
+		descriptionShort = "$STR_FreezeBar_mixed_desc";
 		itemSize[] = {1,2};
 		canBeSplit = 1;
 		varQuantityDestroyOnMin = 1;
@@ -1422,9 +1413,9 @@ class CfgVehicles
 	class FreezeBar_gold: Inventory_Base
 	{
 		scope = 2;
-		displayName = "#STR_FreezeBar_gold";
+		displayName = "$STR_FreezeBar_gold";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Ingots\GoldIngot\goldbar.p3d";
-		descriptionShort = "#STR_FreezeBar_base_desc";
+		descriptionShort = "$STR_FreezeBar_base_desc";
 		itemSize[] = {1,2};
 		canBeSplit = 1;
 		varQuantityDestroyOnMin = 1;
@@ -1448,9 +1439,9 @@ class CfgVehicles
 	class FreezeBar_iron: Inventory_Base
 	{
 		scope = 2;
-		displayName = "#STR_FreezeBar_iron";
+		displayName = "$STR_FreezeBar_iron";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Ingots\IronIngot\Ironbar.p3d";
-		descriptionShort = "#STR_FreezeBar_base_desc";
+		descriptionShort = "$STR_FreezeBar_base_desc";
 		itemSize[] = {1,2};
 		canBeSplit = 1;
 		varQuantityDestroyOnMin = 1;
@@ -1474,9 +1465,9 @@ class CfgVehicles
 	class FreezeBar_silver: Inventory_Base
 	{
 		scope = 2;
-		displayName = "#STR_FreezeBar_silver";
+		displayName = "$STR_FreezeBar_silver";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Ingots\SilverIngot\silverbar.p3d";
-		descriptionShort = "#STR_FreezeBar_base_desc";
+		descriptionShort = "$STR_FreezeBar_base_desc";
 		itemSize[] = {1,2};
 		canBeSplit = 1;
 		varQuantityDestroyOnMin = 1;
@@ -1500,9 +1491,9 @@ class CfgVehicles
 	class FreezeBar_tin: Inventory_Base
 	{
 		scope = 2;
-		displayName = "#STR_FreezeBar_tin";
+		displayName = "$STR_FreezeBar_tin";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Ingots\TinIngot\tinbar.p3d";
-		descriptionShort = "#STR_FreezeBar_base_desc";
+		descriptionShort = "$STR_FreezeBar_base_desc";
 		itemSize[] = {1,2};
 		canBeSplit = 1;
 		varQuantityDestroyOnMin = 1;
@@ -1526,9 +1517,9 @@ class CfgVehicles
 	class FreezePowder_Sulphur: Inventory_Base
 	{
 		scope = 2;
-		displayName = "#STR_FreezePowder_Sulphur";
+		displayName = "$STR_FreezePowder_Sulphur";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Ingots\Sulphur\SulphurPowder.p3d";
-		descriptionShort = "#STR_FreezePowder_Sulphur_desc";
+		descriptionShort = "$STR_FreezePowder_Sulphur_desc";
 		itemSize[] = {1,2};
 		canBeSplit = 1;
 		varQuantityDestroyOnMin = 1;
@@ -1552,9 +1543,9 @@ class CfgVehicles
 	class FreezeBar_uranium: Inventory_Base
 	{
 		scope = 2;
-		displayName = "#STR_FreezeBar_uranium";
+		displayName = "$STR_FreezeBar_uranium";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Ingots\UraniumIngot\Uraniumbar.p3d";
-		descriptionShort = "#STR_FreezeBar_base_desc";
+		descriptionShort = "$STR_FreezeBar_base_desc";
 		itemSize[] = {1,2};
 		canBeSplit = 1;
 		varQuantityDestroyOnMin = 1;
@@ -1580,7 +1571,7 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Don't Use this Ore rock";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Nuggets\BaseStone\stone.p3d";
-		descriptionShort = "#STR_Freezestone_base_desc";
+		descriptionShort = "$STR_Freezestone_base_desc";
 		itemSize[] = {2,1};
 		weight = 1;
 		canBeSplit = 1;
@@ -1604,7 +1595,7 @@ class CfgVehicles
 	};
 	class Freezestone_copper: Freezestone_base
 	{
-		displayName = "#STR_Freezestone_copper";
+		displayName = "$STR_Freezestone_copper";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Nuggets\orerocks\copperstone\copperstone.p3d";
 		weight = 4;
 		inventorySlot[] = {"Freezestone_copper","Freezestone_copper1","Freezestone_copper2","Freezestone_copper3"};
@@ -1622,7 +1613,7 @@ class CfgVehicles
 	};
 	class Freezestone_gold: Freezestone_base
 	{
-		displayName = "#STR_Freezestone_gold";
+		displayName = "$STR_Freezestone_gold";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Nuggets\orerocks\goldstone\goldstone.p3d";
 		weight = 4;
 		inventorySlot[] = {"Freezestone_gold","Freezestone_gold1","Freezestone_gold2","Freezestone_gold3"};
@@ -1640,7 +1631,7 @@ class CfgVehicles
 	};
 	class Freezestone_iron: Freezestone_base
 	{
-		displayName = "#STR_Freezestone_iron";
+		displayName = "$STR_Freezestone_iron";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Nuggets\orerocks\ironstone\ironstone.p3d";
 		weight = 4;
 		inventorySlot[] = {"Freezestone_iron","Freezestone_iron1","Freezestone_iron2","Freezestone_iron3"};
@@ -1658,7 +1649,7 @@ class CfgVehicles
 	};
 	class Freezestone_silver: Freezestone_base
 	{
-		displayName = "#STR_Freezestone_silver";
+		displayName = "$STR_Freezestone_silver";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Nuggets\orerocks\silverstone\silverstone.p3d";
 		weight = 4;
 		inventorySlot[] = {"Freezestone_silver","Freezestone_silver1","Freezestone_silver2","Freezestone_silver3"};
@@ -1676,7 +1667,7 @@ class CfgVehicles
 	};
 	class Freezestone_tin: Freezestone_base
 	{
-		displayName = "#STR_Freezestone_tin";
+		displayName = "$STR_Freezestone_tin";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Nuggets\orerocks\tinstone\tinstone.p3d";
 		weight = 4;
 		inventorySlot[] = {"Freezestone_tin","Freezestone_tin1","Freezestone_tin2","Freezestone_tin3"};
@@ -1694,7 +1685,7 @@ class CfgVehicles
 	};
 	class Freezestone_uranium: Freezestone_base
 	{
-		displayName = "#STR_Freezestone_uranium";
+		displayName = "$STR_Freezestone_uranium";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Nuggets\orerocks\uraniumstone\Uranium_stone.p3d";
 		weight = 4;
 		inventorySlot[] = {"Freezestone_uranium","Freezestone_uranium1","Freezestone_uranium2","Freezestone_uranium3"};
@@ -1712,9 +1703,9 @@ class CfgVehicles
 	};
 	class Freezestone_sulphur: Freezestone_base
 	{
-		displayName = "#STR_Freezestone_sulphur";
+		displayName = "$STR_Freezestone_sulphur";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Nuggets\orerocks\sulphurstone\sulphurstone.p3d";
-		descriptionShort = "#STR_Freezestone_sulphur_desc";
+		descriptionShort = "$STR_Freezestone_sulphur_desc";
 		weight = 4;
 		inventorySlot[] = {"Freezestone_sulphur","Freezestone_sulphur1","Freezestone_sulphur2","Freezestone_sulphur3"};
 		class DamageSystem
@@ -1734,7 +1725,7 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Ore Nugget";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Nuggets\nuggets\basenugget\FreezeNugget_base.p3d";
-		descriptionShort = "#STR_FreezeNugget_base_desc";
+		descriptionShort = "$STR_FreezeNugget_base_desc";
 		itemSize[] = {1,1};
 		weight = 1;
 		canBeSplit = 1;
@@ -1758,7 +1749,7 @@ class CfgVehicles
 	};
 	class FreezeNugget_gold: FreezeNugget_base
 	{
-		displayName = "#STR_FreezeNugget_gold";
+		displayName = "$STR_FreezeNugget_gold";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Nuggets\nuggets\Goldnugget\gold_nugget.p3d";
 		weight = 4;
 		inventorySlot[] = {"FreezeNugget_gold","FreezeNugget_gold1","FreezeNugget_gold2","FreezeNugget_gold3"};
@@ -1776,9 +1767,9 @@ class CfgVehicles
 	};
 	class FreezeRef_Sulphur: FreezeNugget_base
 	{
-		displayName = "#STR_FreezeRef_Sulphur";
+		displayName = "$STR_FreezeRef_Sulphur";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Nuggets\sulphurRef\sulphurRef.p3d";
-		descriptionShort = "#STR_FreezeRef_Sulphur_desc";
+		descriptionShort = "$STR_FreezeRef_Sulphur_desc";
 		weight = 4;
 		inventorySlot[] = {"FreezeRef_Sulphur","FreezeRef_Sulphur1","FreezeRef_Sulphur2","FreezeRef_Sulphur3"};
 		class DamageSystem
@@ -1795,7 +1786,7 @@ class CfgVehicles
 	};
 	class FreezeNugget_copper: FreezeNugget_base
 	{
-		displayName = "#STR_FreezeNugget_copper";
+		displayName = "$STR_FreezeNugget_copper";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Nuggets\nuggets\Coppernugget\copper_nugget.p3d";
 		weight = 4;
 		inventorySlot[] = {"FreezeNugget_copper","FreezeNugget_copper1","FreezeNugget_copper2","FreezeNugget_copper3"};
@@ -1813,7 +1804,7 @@ class CfgVehicles
 	};
 	class FreezeNugget_iron: FreezeNugget_base
 	{
-		displayName = "#STR_FreezeNugget_iron";
+		displayName = "$STR_FreezeNugget_iron";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Nuggets\nuggets\Ironnugget\iron_nugget.p3d";
 		weight = 4;
 		inventorySlot[] = {"FreezeNugget_iron","FreezeNugget_iron1","FreezeNugget_iron2","FreezeNugget_iron3"};
@@ -1831,7 +1822,7 @@ class CfgVehicles
 	};
 	class FreezeNugget_silver: FreezeNugget_base
 	{
-		displayName = "#STR_FreezeNugget_silver";
+		displayName = "$STR_FreezeNugget_silver";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Nuggets\nuggets\Silvernugget\silver_nugget.p3d";
 		weight = 4;
 		inventorySlot[] = {"FreezeNugget_silver","FreezeNugget_silver1","FreezeNugget_silver2","FreezeNugget_silver3"};
@@ -1849,7 +1840,7 @@ class CfgVehicles
 	};
 	class FreezeNugget_tin: FreezeNugget_base
 	{
-		displayName = "#STR_FreezeNugget_tin";
+		displayName = "$STR_FreezeNugget_tin";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Nuggets\nuggets\Tinnugget\tin_nugget.p3d";
 		weight = 4;
 		inventorySlot[] = {"FreezeNugget_tin","FreezeNugget_tin1","FreezeNugget_tin2","FreezeNugget_tin3"};
@@ -1867,7 +1858,7 @@ class CfgVehicles
 	};
 	class FreezeNugget_uranium: FreezeNugget_base
 	{
-		displayName = "#STR_FreezeNugget_uranium";
+		displayName = "$STR_FreezeNugget_uranium";
 		model = "MrfreezeMiningSystem\4_World\FreezeNodes_config\Nuggets\nuggets\Uraniumnugget\Uranium_nugget.p3d";
 		weight = 4;
 		inventorySlot[] = {"FreezeNugget_uranium","FreezeNugget_uranium1","FreezeNugget_uranium2","FreezeNugget_uranium3"};
