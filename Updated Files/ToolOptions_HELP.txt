@@ -1,0 +1,7 @@
+ToolOptions.json Help
+
+All this dose it enables/disables tools that are ONLY for mining.
+This is how it works: 1 = True | 0 = False
+Example:
+"Pickaxe": 1,  this allows the Pickaxe to work for mining the nodes/vanilla rocks.
+"SplittingAxe": 0, this disables the Splitting Axe for mining nodes/vanilla rocks.
