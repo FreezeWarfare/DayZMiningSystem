@@ -1,0 +1,197 @@
+{
+    "EnableNodeSpawns": "0",
+    "NodeLocations": [
+        {
+            "Enabled": "0",
+            "name": "Copper Node Cluster",
+            "Node": "FreezeNode_copper",
+            "Spawn_min": 1,
+            "Spawn_max": 3,
+            "pos": [
+                "3372.0 2.0 5465.0|0.0 0.0 0.0"
+            ],
+            "respawn_timer": 1200,
+            "randomize_position": 1
+        },
+        {
+            "Enabled": "0",
+            "name": "Gold Node Cluster",
+            "Node": "FreezeNode_gold",
+            "Spawn_min": 1,
+            "Spawn_max": 2,
+            "pos": [
+                "3400.0 2.0 5500.0|0.0 0.0 0.0"
+            ],
+            "respawn_timer": 1800,
+            "randomize_position": 1
+        },
+        {
+            "Enabled": "0",
+            "name": "Iron Node Cluster",
+            "Node": "FreezeNode_iron",
+            "Spawn_min": 1,
+            "Spawn_max": 3,
+            "pos": [
+                "3450.0 2.0 5550.0|0.0 0.0 0.0"
+            ],
+            "respawn_timer": 1200,
+            "randomize_position": 1
+        },
+        {
+            "Enabled": "0",
+            "name": "Silver Node Cluster",
+            "Node": "FreezeNode_silver",
+            "Spawn_min": 1,
+            "Spawn_max": 2,
+            "pos": [
+                "3500.0 2.0 5600.0|0.0 0.0 0.0"
+            ],
+            "respawn_timer": 1500,
+            "randomize_position": 1
+        },
+        {
+            "Enabled": "0",
+            "name": "Tin Node Cluster",
+            "Node": "FreezeNode_tin",
+            "Spawn_min": 1,
+            "Spawn_max": 3,
+            "pos": [
+                "3550.0 2.0 5650.0|0.0 0.0 0.0"
+            ],
+            "respawn_timer": 1200,
+            "randomize_position": 1
+        },
+        {
+            "Enabled": "0",
+            "name": "Stone Node Cluster",
+            "Node": "FreezeNode_stone",
+            "Spawn_min": 2,
+            "Spawn_max": 5,
+            "pos": [
+                "3600.0 2.0 5700.0|0.0 0.0 0.0"
+            ],
+            "respawn_timer": 600,
+            "randomize_position": 1
+        },
+        {
+            "Enabled": "0",
+            "name": "Uranium Node Cluster",
+            "Node": "FreezeNode_uranium",
+            "Spawn_min": 1,
+            "Spawn_max": 1,
+            "pos": [
+                "3650.0 2.0 5750.0|0.0 0.0 0.0"
+            ],
+            "respawn_timer": 2400,
+            "randomize_position": 1
+        },
+        {
+            "Enabled": "0",
+            "name": "Sulphur Node Cluster",
+            "Node": "FreezeNode_sulphur",
+            "Spawn_min": 1,
+            "Spawn_max": 3,
+            "pos": [
+                "3700.0 2.0 5800.0|0.0 0.0 0.0"
+            ],
+            "respawn_timer": 1200,
+            "randomize_position": 1
+        },
+        {
+            "Enabled": "0",
+            "name": "Amber Gem Node",
+            "Node": "FreezeNode_AmberGemNode",
+            "Spawn_min": 1,
+            "Spawn_max": 1,
+            "pos": [
+                "3750.0 2.0 5850.0|0.0 0.0 0.0"
+            ],
+            "respawn_timer": 3600,
+            "randomize_position": 1
+        },
+        {
+            "Enabled": "0",
+            "name": "Amethyst Gem Node",
+            "Node": "FreezeNode_AmethystGemNode",
+            "Spawn_min": 1,
+            "Spawn_max": 1,
+            "pos": [
+                "3800.0 2.0 5900.0|0.0 0.0 0.0"
+            ],
+            "respawn_timer": 3600,
+            "randomize_position": 1
+        },
+        {
+            "Enabled": "0",
+            "name": "Aquamarine Gem Node",
+            "Node": "FreezeNode_AquamarineGemNode",
+            "Spawn_min": 1,
+            "Spawn_max": 1,
+            "pos": [
+                "3850.0 2.0 5950.0|0.0 0.0 0.0"
+            ],
+            "respawn_timer": 3600,
+            "randomize_position": 1
+        },
+        {
+            "Enabled": "0",
+            "name": "Fancy Colour Diamond Gem Node",
+            "Node": "FreezeNode_FancyColourDiamondGemNode",
+            "Spawn_min": 1,
+            "Spawn_max": 1,
+            "pos": [
+                "3900.0 2.0 6000.0|0.0 0.0 0.0"
+            ],
+            "respawn_timer": 7200,
+            "randomize_position": 1
+        },
+        {
+            "Enabled": "0",
+            "name": "Iolite Gem Node",
+            "Node": "FreezeNode_IoliteGemNode",
+            "Spawn_min": 1,
+            "Spawn_max": 1,
+            "pos": [
+                "3950.0 2.0 6050.0|0.0 0.0 0.0"
+            ],
+            "respawn_timer": 3600,
+            "randomize_position": 1
+        },
+        {
+            "Enabled": "0",
+            "name": "Jade Gem Node",
+            "Node": "FreezeNode_JadeGemNode",
+            "Spawn_min": 1,
+            "Spawn_max": 1,
+            "pos": [
+                "4000.0 2.0 6100.0|0.0 0.0 0.0"
+            ],
+            "respawn_timer": 3600,
+            "randomize_position": 1
+        },
+        {
+            "Enabled": "0",
+            "name": "Ruby Gem Node",
+            "Node": "FreezeNode_RubyGemNode",
+            "Spawn_min": 1,
+            "Spawn_max": 1,
+            "pos": [
+                "4050.0 2.0 6150.0|0.0 0.0 0.0"
+            ],
+            "respawn_timer": 4800,
+            "randomize_position": 1
+        },
+        {
+            "Enabled": "0",
+            "name": "Turquoise Gem Node",
+            "Node": "FreezeNode_TurquoiseGemNode",
+            "Spawn_min": 1,
+            "Spawn_max": 1,
+            "pos": [
+                "4100.0 2.0 6200.0|0.0 0.0 0.0"
+            ],
+            "respawn_timer": 3600,
+            "randomize_position": 1
+        }
+    ]
+}

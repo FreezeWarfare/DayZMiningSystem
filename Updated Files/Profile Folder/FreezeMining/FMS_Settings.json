@@ -1,0 +1,13 @@
+{
+    "EnableLogs": 1,
+    "EnableDebug": 0,
+    "KeepLogDays": 7,
+    "EnableVanillaRockMining": 0,
+    "EnableGemCuttingMiniGame": 0,
+    "EnableFurnace": 1,
+    "EnableGrindingStone": 1,
+    "EnableAnvil": 1,
+    "PropaneCanisterUsage": 1.0,
+    "GrindingWheelUsage": 1.0,
+    "AnvilHammerDamage": 0.5
+}

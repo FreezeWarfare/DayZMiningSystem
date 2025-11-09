@@ -1,0 +1,21 @@
+{
+    "VanillaRockProbabilities": {
+        "FreezeGem_Jade": 4,
+        "FreezeGem_Amber": 4,
+        "Freezestone_copper": 12,
+        "FreezeGem_FancyColourDiamond": 4,
+        "Freezestone_silver": 10,
+        "FreezeGem_Amethyst": 4,
+        "FreezeGem_Turquoise": 4,
+        "FreezeGem_Aquamarine": 5,
+        "Freezestone_tin": 12,
+        "FreezeGem_Iolite": 4,
+        "Freezestone_sulphur": 12,
+        "Stone": 50,
+        "SmallStone": 10,
+        "Freezestone_gold": 10,
+        "FreezeGem_Ruby": 4,
+        "Freezestone_uranium": 16,
+        "Freezestone_iron": 12
+    }
+}
