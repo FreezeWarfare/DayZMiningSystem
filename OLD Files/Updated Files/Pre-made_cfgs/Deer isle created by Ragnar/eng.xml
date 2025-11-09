@@ -1,0 +1,113 @@
+﻿Setting the automatic appearance of the ore "silver" for Deer isle
+
+
+<!>If you added to the file <types.xml> then you need to replace it with the value shown below
+<!>If you are using <miningsystem_types.xml> through <cfgeconomycore.xml> so it needs to be changed
+
+	<type name="FreezeNode_silver">
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+		<category name="tools"/>
+	</type>
+
+<!>Add to file <events.xml>
+<!-- CHANGING THE AMOUNT OF ORE ONLY HERE, BE AWARE OF THE TIME, DO NOT PUT MORE Amount OF ORE THAN SPAWN POINTS -->
+	<event name="ItemNodeStoneSILVER">
+        <nominal>10</nominal>					<!--this is the maximum value of how much silver will appear TOTAL, NOT MORE THAN 72, because the points of the appearance of ore are 72-->
+        <min>5</min>                            <!--this is the minimum value of how much silver can appear -->
+        <max>10</max>                           <!--this is the maximum value of how much silver can spawn, NO MORE THAN 72, because the spawn points of ore are 72 -->
+        <lifetime>21600</lifetime>              <!--this is the time after which the ore will appear again in a new place -->
+        <restock>0</restock>
+        <saferadius>700</saferadius>           	<!--this is the distance the player needs to go for the ore to spawn -->
+        <distanceradius>1</distanceradius>
+        <cleanupradius>700</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="10" min="5" type="FreezeNode_silver"/>	
+        </children>
+    </event>
+	
+<!>Add to file <cfgeventspawns.xml> 72 spawn points on the map
+
+	<event name="ItemNodeStoneSILVER">	
+		<pos x="371.844" z="575.942" a="0" />
+		<pos x="432.939" z="567.974" a="0" />
+		<pos x="509.885" z="506.65" a="0" />
+		<pos x="338.366" z="318.31" a="0" />
+		<pos x="201.396" z="337.824" a="0" />
+		<pos x="176.52" z="652.031" a="0" />
+		<pos x="166.406" z="787.5" a="0" />
+		<pos x="179.909" z="778.614" a="0" />
+		<pos x="187.407" z="821.258" a="0" />
+		<pos x="211.278" z="869.458" a="0" />
+		<pos x="337.416" z="1074.5" a="0" />
+		<pos x="361.253" z="1079.01" a="0" />
+		<pos x="368.574" z="1090.35" a="0" />
+		<pos x="427.148" z="954.383" a="0" />
+		<pos x="507.158" z="929.544" a="0" />
+		<pos x="541.875" z="883.888" a="0" />
+		<pos x="581.469" z="978.017" a="0" />
+		<pos x="481.59" z="831.701" a="0" />
+		<pos x="500.672" z="875.256" a="0" />
+		<pos x="450.087" z="775.743" a="0" />
+		<pos x="550.766" z="755.89" a="0" />
+		<pos x="428.72" z="714.407" a="0" />
+		<pos x="503.158" z="630.066" a="0" />
+		<pos x="517.937" z="608.666" a="0" />
+		<pos x="532.797" z="632.073" a="0" />
+		<pos x="659.191" z="506.221" a="0" />
+		<pos x="683.782" z="530.119" a="0" />
+		<pos x="698.693" z="558.609" a="0" />
+		<pos x="710.488" z="604.87" a="0" />
+		<pos x="557.879" z="454.867" a="0" />
+		<pos x="667.804" z="368.179" a="0" />
+		<pos x="611.255" z="370.3" a="0" />
+		<pos x="570.209" z="390.581" a="0" />
+		<pos x="516.317" z="408.355" a="0" />
+		<pos x="499.067" z="442.289" a="0" />
+		<pos x="446.132" z="394.622" a="0" />
+		<pos x="426.526" z="374.938" a="0" />
+		<pos x="407.663" z="324.429" a="0" />
+		<pos x="421.886" z="313.116" a="0" />
+		<pos x="216.994" z="283.047" a="0" />
+		<pos x="206.337" z="532.144" a="0" />
+		<pos x="261.88" z="509.044" a="0" />
+		<pos x="244.121" z="497.61" a="0" />
+		<pos x="271.994" z="508.776" a="0" />
+		<pos x="313.173" z="593.649" a="0" />
+		<pos x="309.643" z="667.828" a="0" />
+		<pos x="300.5" z="646.952" a="0" />
+		<pos x="270.024" z="713.866" a="0" />
+		<pos x="239.555" z="712.682" a="0" />
+		<pos x="349.239" z="700.51" a="0" />
+		<pos x="283.068" z="780.266" a="0" />
+		<pos x="371.846" z="890.496" a="0" />
+		<pos x="425.034" z="880.519" a="0" />
+		<pos x="529.291" z="933.857" a="0" />
+		<pos x="657.881" z="373.838" a="0" />
+		<pos x="630.695" z="343.931" a="0" />
+		<pos x="404.019" z="433.443" a="0" />
+		<pos x="388.867" z="431.632" a="0" />
+		<pos x="366.27" z="446.667" a="0" />
+		<pos x="226.308" z="421.911" a="0" />
+		<pos x="722.911" z="871.384" a="0" />
+		<pos x="655.413" z="973.255" a="0" />
+		<pos x="530.351" z="1070.54" a="0" />
+		<pos x="485.008" z="1098.29" a="0" />
+		<pos x="463.106" z="1114.4" a="0" />
+		<pos x="421.161" z="1119.92" a="0" />
+		<pos x="364.481" z="1127.06" a="0" />
+		<pos x="331.4" z="1121.73" a="0" />
+		<pos x="372.991" z="1176.01" a="0" />
+		<pos x="245.783" z="997.533" a="0" />
+		<pos x="191.199" z="1035.7" a="0" />
+	</event>

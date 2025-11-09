@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <link rel="icon" href="icon.png" type="image/png" />
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>DayZ Mining Mod Guide</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&amp;display=swap" rel="stylesheet"/>
+<style>
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background: #121212;
+      color: #e0e0e0;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      text-align: center;
+      padding: 2rem;
+      background-color: #181818;
+      border-bottom: 3px solid #00ffff;
+    }
+    header h1 {
+      margin: 0;
+      color: #00ffff;
+    }
+    .comment {
+      color: orange;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+      padding: 2rem;
+    }
+    .card {
+      background-color: #1e1e1e;
+      border: 2px solid #00ffff;
+      border-radius: 10px;
+      padding: 2rem;
+      width: 250px;
+      text-align: center;
+      cursor: pointer;
+      transition: transform 0.2s, background-color 0.2s;
+      box-shadow: 0 0 10px #000;
+    }
+    .card:hover {
+      transform: scale(1.05);
+      background-color: #2a2a2a;
+    }
+    section {
+      padding: 2rem;
+      border-top: 1px solid #333;
+      display: none;
+      background-color: #181818;
+    }
+    section.active {
+      display: block;
+    }
+    h2 {
+      color: #00ffff;
+    }
+    h3 {
+      color: #66ffff;
+    }
+    .subsection {
+      display: none;
+      margin-top: 1rem;
+      background-color: #222;
+      padding: 1rem;
+      border-left: 4px solid #00ffff;
+      border-radius: 6px;
+    }
+    a {
+      color: #00ffff;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    pre {
+      background-color: #111;
+      font-family: monospace;
+      padding: 1rem;
+      border: 1px solid #444;
+      overflow-x: auto;
+      border-radius: 5px;
+      color: #00ffff;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+<header>
+<h1>DayZ Mining Mod Guide</h1>
+</header>
+<div class="container"><div class="card" onclick="openSection('installation')">Installation</div><div class="card" onclick="openSection('profiles')">Profile Section</div></div>
+
+<section id="installation">
+<h2>Installation Guide</h2>
+<div class="container">
+<div class="card" onclick="toggleSubSection('mining', this)">Setting up Mining System</div>
+<div class="card" onclick="toggleSubSection('spawn', this)">Spawn Manager</div>
+</div>
+<div class="subsection" id="mining">
+<h3>Setting up Mining System</h3>
+<ul>
+<li>Add the mod to your server.</li>
+<li>Add the key within your key server folder.</li>
+<li>Boot your server up and make sure it creates the "FreezeMining" folder within profile folder.</li>
+<li>Once you see that folder you have done it.</li>
+</ul>
+<h4>Setting up Lifetimes</h4>
+<p>This handles lifetimes of specific items and objects that the mining system uses. Edit to your own liking.</p>
+<ul>
+<li>Head to your root mod folder for the Mining System.</li>
+<li>Copy <code>files_miningsystem</code> and paste within your <code>mpmissions\mapname</code>. For this example we will use <code>mpmissions\dayzOffline.chernarusplus</code>.</li>
+<li>Head over to <code>mpmissions/mapname/cfgeconomycore.xml</code> and after the closing <code>&lt;/defaults&gt;</code> tag, add the following:</li>
+</ul>
+<pre>
+&lt;ce folder="files_miningsystem"&gt;
+    &lt;file name="miningsystem_types.xml" type="types" /&gt;
+&lt;/ce&gt;
+</pre>
+</div>
+<div class="subsection" id="spawn">
+<h3>Spawn Manager</h3>
+<p>Please read <strong><a href="#" onclick="openSection('profiles'); toggleSubSection('spawnmanager', this); return false;">FMS_SpawnManager.json</a></strong> within Profile Section to get another understanding.</p>
+<pre>"3372.466309 2.689854 5465.298828|-98.613243 2.483688 -0.789240"
+
+3372.466309 2.689854 5465.298828
+X - East to West
+Y - Vertical / Height
+Z - North / South
+
+-98.613243 2.483688 -0.789240
+P - Tilting forward/backward
+Y - Turning left/right
+R - Tilting sideways</pre>
+<pre>{
+  "EnableNodeSpawns": "1", <span class="comment">//Enable FMS Spawn Manager</span>
+  "NodeLocations": [
+    {
+      "Enabled": "1", <span class="comment">//Is this location spawn active 1=Yes | 0=NO</span>
+      "name": "Tin Node - Location Name", <span class="comment">//Spawn Location or Identifier where the spawn is</span>
+      "Node": "FreezeNode_tin", <span class="comment">// Node class name</span>
+      "Spawn_min": 1, <span class="comment">// MIN 1 of the 3 POS locations</span>
+      "Spawn_max": 2, <span class="comment">// MAX 2 of the 3 POS locations</span>
+      "pos": [
+        "3372.466309 2.689854 5465.298828|-98.613243 2.483688 -0.789240",
+        "3374.754639 2.544425 5462.621094|-59.590309 2.728735 0.446974",
+        "3378.499023 2.381880 5462.661621|-117.850388 1.542388 -2.625101"
+      ],
+      "respawn_timer": 120, <span class="comment">//Respawn Timer after Destroyed</span>
+      "randomize_position": 1 <span class="comment">//if set to 0 it will spawn on the same Pos</span>
+    }
+  ]
+}</pre>
+</div>
+
+</section>
+<section id="profiles">
+<h2>Profile Section</h2>
+<div class="container">
+<div class="card" onclick="toggleSubSection('settings', this)">FMS_Settings.json</div>
+<div class="card" onclick="toggleSubSection('probabilities', this)">FMS_Probabilities.json</div>
+<div class="card" onclick="toggleSubSection('spawnmanager', this)">FMS_SpawnManager.json</div>
+<div class="card" onclick="toggleSubSection('vanillarock', this)">FMS_VanillaRock.json</div>
+</div>
+<div class="subsection" id="settings">
+<h3>FMS_Settings.json</h3>
+<p><strong>0 = False / Disables</strong> | <strong>1 = True / Enables</strong></p>
+<ul>
+<li>EnableLogs – Enables or disables logging</li>
+<li>KeepLogDays – Number of days to retain logs</li>
+<li>EnableVanillaRockMining – Toggle vanilla rock mining</li>
+<li>EnableGemCuttingMiniGame – Toggle gem mini-game</li>
+<li>EnableFurnace – Toggle furnace crafting</li>
+<li>EnableGrindingStone – Toggle grinding station</li>
+<li>EnableAnvil – Toggle anvil crafting</li>
+<li>PropaneCanisterUsage – How long dose propane canister last</li>
+<li>GrindingWheelUsage – How long dose the wheel last</li>
+<li>AnvilHammerDamage – How long dose the Hammer last</li>
+</ul>
+<p>Example FMS_Settings.json configuration:</p>
+<pre>{
+    "EnableLogs": 1,
+    "EnableDebug": 0,
+    "KeepLogDays": 7,
+    "EnableVanillaRockMining": 0,
+    "EnableGemCuttingMiniGame": 0,
+    "EnableFurnace": 1,
+    "EnableGrindingStone": 1,
+    "EnableAnvil": 1,
+    "PropaneCanisterUsage": 1.0,
+    "GrindingWheelUsage": 1.0,
+    "AnvilHammerDamage": 0.5
+}</pre>
+</div>
+<div class="subsection" id="probabilities">
+<h3>FMS_Probabilities.json</h3>
+<p>The probability system operates out of 100 per mining circle. To guarantee a drop, set <code>"probability": 100</code>.</p>
+<p>Using copper as an example:</p>
+<ul>
+<li><code>probability: 70</code> → 70% chance on each mining circle</li>
+<li><code>probability: 30</code> → 30% chance on each mining circle</li>
+</ul>
+<p>Here’s what a config for mining copper might look like:</p>
+<pre>{
+  "actionText": "Mine for Copper Ore",
+  "max_mine": 6,
+  "enabledTypes": [
+    "FreezeNode_copper"
+  ],
+  "itemsProbabilities": [
+    { "item": "Freezestone_copper", "probability": 70 },
+    { "item": "Stone", "probability": 30 }
+  ]
+}</pre>
+</div>
+<div class="subsection" id="spawnmanager">
+<h3>FMS_SpawnManager.json</h3>
+<p><strong>0 = False / Disables</strong> | <strong>1 = True / Enables</strong></p>
+<ul>
+<li>Enabled – Enable or disable this node spawn group</li>
+<li>name – Unique name for the group of nodes</li>
+<li>Node – Class name of the mining node</li>
+<li>Spawn_min – Minimum number of nodes to spawn</li>
+<li>Spawn_max – Maximum number of nodes to spawn</li>
+<li>pos – Position (and optional rotation) for spawn</li>
+<li>respawn_timer – Seconds before nodes respawn</li>
+<li>randomize_position – Always keep this as 1</li>
+</ul>
+<p>Example:</p>
+<pre>{
+  "actionText": "North Copper Ore",
+  "max_mine": 6,
+  "enabledTypes": [
+    "FreezeNode_copper"
+  ],
+  "itemsProbabilities": [
+    { "item": "Freezestone_copper", "probability": 70 },
+    { "item": "Stone", "probability": 30 }
+  ]
+},
+{
+  "actionText": "South Copper Ore",
+  "max_mine": 4,
+  "enabledTypes": [
+    "FreezeNode_copper"
+  ],
+  "itemsProbabilities": [
+    { "item": "Freezestone_copper", "probability": 80 },
+    { "item": "Stone", "probability": 10 }
+  ]
+}</pre>
+</div>
+<div class="subsection" id="vanillarock">
+<h3>FMS_VanillaRock.json</h3>
+<p>When you enable vanilla rocks within <strong>FMS_Settings.json</strong>, you can edit what vanilla rocks drop when mining. Below is an example of how the <code>FMS_VanillaRock.json</code> file might look. You can modify the probabilities as needed:</p>
+<pre>{
+    "VanillaRockProbabilities": {
+        "FreezeGem_Jade": 4,
+        "FreezeGem_Amber": 4,
+        "Freezestone_copper": 12,
+        "FreezeGem_FancyColourDiamond": 4,
+        "Freezestone_silver": 10,
+        "FreezeGem_Amethyst": 4,
+        "FreezeGem_Turquoise": 4,
+        "FreezeGem_Aquamarine": 5,
+        "Freezestone_tin": 12,
+        "FreezeGem_Iolite": 4,
+        "Freezestone_sulphur": 12,
+        "Stone": 50,
+        "SmallStone": 10,
+        "Freezestone_gold": 10,
+        "FreezeGem_Ruby": 4,
+        "Freezestone_uranium": 16,
+        "Freezestone_iron": 12
+    }
+}</pre>
+</div>
+</section>
+<script>
+    function openSection(id) {
+      document.querySelectorAll("section").forEach(sec => sec.classList.remove("active"));
+      document.getElementById(id).classList.add("active");
+      document.querySelectorAll('.subsection').forEach(s => s.style.display = 'none');
+    }
+    function toggleSubSection(id, el) {
+      document.querySelectorAll('.subsection').forEach(s => {
+        if (s.id !== id) s.style.display = 'none';
+      });
+      const section = document.getElementById(id);
+      section.style.display = section.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
+<div style="text-align:center; padding:2rem;"><a href="https://discord.gg/MXUwnsXRVw" style="display:inline-block; padding:1rem 2rem; background-color:#00ffff; color:#000; text-decoration:none; border-radius:8px; font-weight:bold;" target="_blank">Join our Discord</a></div></body>
+</html>
